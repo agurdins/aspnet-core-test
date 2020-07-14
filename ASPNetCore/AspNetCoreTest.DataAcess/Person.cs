@@ -1,8 +1,15 @@
 ﻿using System;
 
-namespace AspNetCoreTest.DataAcess
+namespace AspNetCoreTest.Data
 {
-    public class Class1
+    public class Person
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public string Surname { get; set; }
+        public string Email { get; set; }
+        public int Age { get; set; }
+        public string Adress { get; set; }
+        public bool IsMale { get; set; }
     }
 }
